@@ -2,7 +2,13 @@
 
 <!-- En este caso abrimos todo el code del html desde aqui -->
 <h1>Hello World</h1>
-<cursos></cursos>
+<!-- <cursos></cursos> -->
 
+<!-- Traer una variable desd el TS -->
+<h1> {{ nombre }} </h1>
+<h2> {{ 'El nobre varibale es ' + getNombre() }} </h2>
+
+<!--  En este caso lo creamos desde ng g c cursos -->
+<app-cursos></app-cursos>
 
 <router-outlet></router-outlet>

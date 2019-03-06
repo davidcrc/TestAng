@@ -7,4 +7,12 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'my-app';
+
+  nombre = 'Luis';
+
+  // Usando una funcion
+  getNombre(){
+    return this.nombre;
+  }
+
 }
